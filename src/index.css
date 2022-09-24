@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=DynaPuff');
+
+body {
+  margin: 5px;
+  font-family: DynaPuff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(1, 1, 26);
+  background-color: white;
+  width: viewport-length;
+  font-size: 18pt;
+}
+
+.Navbar{
+  width: viewport-length;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px 10px 50px;
+  background-color: rgb(82,197,218);
+}
+
+.Sidebar{
+  height: 650px;
+  margin-top: 10px;
+  background-color: rgb(132, 170, 203);
+  font-size: 40px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content{
+  height: auto;
+  border-radius: 25px;
+  padding: 50px;
+  word-spacing: 10px; 
+  width: 68%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 73%;
+}
+
+img{
+  border-radius: 10px;
+  height: 600px;
+}
+
+button{
+  border-radius: 10px;
+  width: 90%;
+  font-size: large;
+  /* margin: 20px 0; */
+  border: none;
+  background-color: rgb(132, 170, 203);
+  text-align: left;
+  padding: 25px;
+  font-family: DynaPuff;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  color: white;
+  background-color:maroon ;
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  margin: 30px;
+  color:rgb(3, 23, 41);
+  font-size: small;
+}
+
+a:hover{
+  color:brown;
+}
+
+.Navbar input{
+  border-radius: 15px;
+  margin-left: 50%;
+  height: 40px;
+}
+
+.content-view:hover{
+  box-shadow: 3px 3px 3px 1px rgb(61, 60, 60);
+  padding: 10px;
+}
+
+/* Register */
+.Register{
+  text-align:left;
+  width: 100%;
+  margin: 40px 50px;
+}
+
+.welcome{
+  color: rgb(6, 141, 139);
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.Register label{
+  display: block;
+}
+
+.Register h2{
+  font-size: 30px;
+  color: darkred;
+  margin-bottom: 30px;
+}
+
+.Register input, .Register select{
+  width: 300px;
+  padding: 6px 10px;
+  border: 1px solid rgb(1, 1, 19);
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.Register button{
+  padding: 6px 10px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid rgb(1, 1, 19);
+  border-radius: 20px;
+  width: 300px;
+  display: block;
+}
