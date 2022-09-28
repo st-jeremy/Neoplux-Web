@@ -7,7 +7,7 @@ import ContactUs from './ContactUs';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import ContentDetails from './ContentDetails';
-import NotFound from './NotFound';
+// import NotFound from './NotFound';
 
 function App() {
   return (
@@ -28,17 +28,17 @@ function App() {
             <Register />
           </Route>
 
-          <Route path="/ContactUs">
+          <Route exact path="/ContactUs">
             <ContactUs />
           </Route>
 
-          <Route path="/Content/:id">
+          <Route exact path="/Content/:id">
             <ContentDetails />
           </Route>
 
-          <Route path="*">
+          {/* <Route path="*">
             <NotFound />
-          </Route>
+          </Route> */}
         </div>
       </Switch>
       
