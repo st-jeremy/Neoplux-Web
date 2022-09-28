@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const ContentDetails = () => {
     const { id } = useParams();
-    const { data: content, isLoading, error } = useFetch('http://localhost:8000/Content/' + id);
+    const { data: content, isLoading, error } = useFetch('http://localhost:5000/Content/' + id);
 
     return ( 
         <div className="content-details">
