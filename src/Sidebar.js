@@ -1,4 +1,6 @@
-// import img from './416169_icolorpalette.png'; 
+import { FaFacebookSquare } from 'react-icons/fa';
+import { SiTwitter } from 'react-icons/si';
+import { SiTiktok } from 'react-icons/si'
 
 const Sidebar = () => {
 
@@ -29,24 +31,11 @@ const Sidebar = () => {
             <br />
             <br />
             <br />
-            <a href="http://facebook.com"><img src="./416169_icolorpalette.png" alt="facebook" /></a>
+            <a href="http://facebook.com"><FaFacebookSquare/>FaceBook</a>
             <br />
-            <a href="http://twitter.com"><img src="./416169_icolorpalette.png" alt="twitter" /></a>
+            <a href="http://twitter.com"><SiTwitter/>Twitter</a>
             <br />
-            <a href="http://tiktok.com"><img src="./416169_icolorpalette.png" alt="tiktok" /></a>
-
-
-            {/* <button className="btnA">
-                Adult
-            </button>
-
-            <button className="btnH">
-                Hydrotherapy
-            </button>
-
-            <button className="btnP">
-                Competitive
-            </button> */}
+            <a href="http://tiktok.com"><SiTiktok/>Tiktok</a>
 
         </div>
     );
