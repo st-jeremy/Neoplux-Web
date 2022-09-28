@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=DynaPuff');
-
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 body {
   margin: 5px;
-  font-family: DynaPuff;
+  font-family: IBM Plex Sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(1, 1, 26);
@@ -26,6 +26,7 @@ body {
   font-size: 40px;
   position: relative;
   border-radius: 10px;
+  font-family: IBM Plex Sans;
 }
 
 .content{
@@ -34,6 +35,7 @@ body {
   padding: 50px;
   word-spacing: 10px; 
   width: 68%;
+  font-family: IBM Plex Sans;
 }
 
 .column {
@@ -46,6 +48,15 @@ body {
 
 .right {
   width: 73%;
+}
+
+
+.left1 {
+  width: 50%;
+}
+
+.right1 {
+  width: 50%;
 }
 
 img{
@@ -62,7 +73,7 @@ button{
   background-color: rgb(132, 170, 203);
   text-align: left;
   padding: 25px;
-  font-family: DynaPuff;
+  font-family: IBM Plex Sans;
   margin-top: 10px;
 }
 
@@ -95,8 +106,10 @@ a:hover{
   padding: 10px;
 }
 
+
+
 /* Register */
-.Register{
+.Register, .ContactUs{
   text-align:left;
   width: 100%;
   margin: 40px 50px;
@@ -108,17 +121,17 @@ a:hover{
   margin-bottom: 20px;
 }
 
-.Register label{
+.Register label, .ContactUs label{
   display: block;
 }
 
-.Register h2{
+.Register h2, .ContactUs h2{
   font-size: 30px;
   color: darkred;
   margin-bottom: 30px;
 }
 
-.Register input, .Register select{
+.Register input, .Register select, .ContactUs input, .ContactUs select{
   width: 300px;
   padding: 6px 10px;
   border: 1px solid rgb(1, 1, 19);
@@ -127,7 +140,7 @@ a:hover{
   margin-bottom: 30px;
 }
 
-.Register button{
+.Register button, .ContactUs button{
   padding: 6px 10px;
   cursor: pointer;
   text-align: center;
