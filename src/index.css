@@ -1,128 +1,245 @@
-@import url('https://fonts.googleapis.com/css?family=DynaPuff');
+@import url('https://fonts.googleapis.com/css?family=Dyna+Puff');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+html{
+  font-size: 12pt;
+  width:100%;
+}
+
 body {
-  margin: 5px;
-  font-family: IBM Plex Sans;
+  font-family:sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(1, 1, 26);
   background-color: white;
-  width: viewport-length;
-  font-size: 18pt;
+  width: 100%;
 }
 
 .Navbar{
-  width: viewport-length;
-  height: auto;
-  border-radius: 5px;
-  padding: 5px 10px 10px 50px;
-  background-color: rgb(82,197,218);
-}
-
-.Sidebar{
-  height: 650px;
-  margin-top: 10px;
-  background-color: rgb(132, 170, 203);
-  font-size: 40px;
-  position: relative;
-  border-radius: 10px;
-  font-family: IBM Plex Sans;
-}
-
-.content{
-  height: auto;
-  border-radius: 25px;
-  padding: 50px;
-  word-spacing: 10px; 
-  width: 68%;
-  font-family: IBM Plex Sans;
-}
-
-.column {
-  float: left;
-}
-
-.left {
-  width: 20%;
-}
-
-.right {
-  width: 73%;
+  width: 98%;
+  height: 15%;
+  margin-top: -1%;
+  /* border-radius: 5%; */
+  background-color: rgb(210, 210, 239);
+  color: rgb(1, 13, 26);
+  position: fixed;
+  z-index: 1000;
+  float: right;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    rgb(235, 232, 232) 0%,
+    rgb(255, 255, 255) 35%,
+    rgb(233, 233, 242) 60%,
+    rgb(44, 125, 212) 100%
+  );
 }
 
 
-.left1 {
-  width: 50%;
+.Nav1{
+  display: flex;
+  font-size:larger;
 }
 
-.right1 {
-  width: 50%;
+.Nav1 img{
+  width: 10%;
+  height: 80%;
 }
 
-img{
-  border-radius: 10px;
-  height: 600px;
-}
-
-button{
-  border-radius: 10px;
-  width: 90%;
-  font-size: large;
-  /* margin: 20px 0; */
-  border: none;
-  background-color: rgb(132, 170, 203);
-  text-align: left;
-  padding: 25px;
-  font-family: IBM Plex Sans;
-  margin-top: 10px;
-}
-
-.btn:hover {
-  color: white;
-  background-color:maroon ;
-  transition-duration: 0.5s;
-  width: 100%;
+.Nav2 {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  font-weight: bolder;
+  padding-bottom: 5%;
 }
 
 a{
+  display: flex;
+  margin: 0 3%;
   text-decoration: none;
-  margin: 30px;
-  color:rgb(3, 23, 41);
-  font-size: small;
+  color: white;
 }
 
-a:hover{
-  color:brown;
+#search {
+  border-radius: 15%;
+  position: absolute;
+  right: 5%;
 }
 
-.Navbar input{
-  border-radius: 15px;
-  margin-left: 50%;
-  height: 40px;
+#loading{
+  height: 600px;
+  width: 800px;
 }
 
-.content-view:hover{
-  box-shadow: 3px 3px 3px 1px rgb(61, 60, 60);
+.Sidebar{
+  height: 70%;
+  width: 20%;
+  margin: 11% 0 0;
+  background-color: rgb(218, 225, 233);
+  position: relative;
+  border-radius: 10px;
+  font-family: IBM Plex Sans;
+  position: fixed;
+  padding: 1% 0;
+  font-size: larger;
+}
+
+.side {
+  margin-bottom: 80px;
+}
+
+.side img{
+  width: 100%;
+  height: 50%;
+}
+
+.homebar, .regbar, .contactbar, .aboutbar{
+  width: auto;
+  height: 80%;
+  padding: 10%;
+  word-spacing: 20%;
+}
+
+.homebar:hover, .regbar:hover, .contactbar:hover, .aboutbar:hover{
+  background-color: rgb(105, 105, 211);
+  color: aliceblue;
+}
+
+.homebar{
+  background-color: rgb(160,45,34);
+  margin-left: '.5rem'; 
+}
+
+.regbar{
+  background-color: rgb(90,140,215) ;
+}
+
+.contactbar{
+  background-color: rgb(132,170,167);
+}
+
+.aboutbar{
+  background-color: rgb(147, 109, 106);
+}
+
+.Partners{
+  text-align: center;
+  font-size: large;
+}
+
+.Partners img{
+  width: 24%;
+  height:auto;
+  margin-right: 3%;
+}
+.content{
+  background-color: rgb(229, 242, 242);
+}
+
+.Home, .Register, .ContactUs, .AboutUs{
+  width: 72%;
+  position: relative;
+  text-align: justify;
+  float: right;
+  right: 5%;
+  margin: 13% -3% 0 0 ;
+  padding: 2% 0 5% 5%;
+  background-color: azure;
+  word-spacing: 2%;
+}
+
+.home img{
+  align-self: center;
+  height: 10%;
+}
+#homePic{
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+
+}
+
+.Footer{
+  background-color: rgb(68,122,203);
+  color: white;
+  border-radius: 10px 0;
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+  height: auto;
+  width: 70%;
+  float: right;
+  right: 20px;
+  margin: 2% 1%;
+}
+
+Link{
+  color: brown;
+  margin-top: -2%;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  right: 5%;
   padding: 10px;
 }
 
-
-
-/* Register */
-.Register, .ContactUs{
-  text-align:left;
-  width: 100%;
-  margin: 40px 50px;
+#slide{
+  border-radius: 10px;
+  height: 70%;
 }
 
-.welcome{
-  color: rgb(6, 141, 139);
-  font-size: larger;
-  margin-bottom: 20px;
+.ContentList{
+  margin: -40% 30px 0;
+  text-align: justify;
+  color: black;
+}
+
+.content-view{
+  color:rgb(1, 1, 19);
+  background-color: aliceblue;
+}
+.content-details{
+  color: black;
+  background-color: wheat;
+}
+
+.Register, .ContactUs{
+  font-family: DynaPuff;
+  text-align: center;
+  display: block;
+}
+.RegPicture{
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.RegPicture1{
+  float: right;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Reg{
+  margin: 3% 0;
+  
+}
+.ContactUs{
+  font-family: DynaPuff;
+  display: block;
 }
 
 .Register label, .ContactUs label{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
 }
 
 .Register h2, .ContactUs h2{
@@ -147,5 +264,5 @@ a:hover{
   border: 1px solid rgb(1, 1, 19);
   border-radius: 20px;
   width: 300px;
-  display: block;
+  margin: auto;
 }
