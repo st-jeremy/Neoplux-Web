@@ -1,41 +1,50 @@
-import { FaFacebookSquare } from 'react-icons/fa';
-import { SiTwitter } from 'react-icons/si';
-import { SiTiktok } from 'react-icons/si'
+import { FaHome } from 'react-icons/fa';
+import { FaCashRegister } from 'react-icons/fa';
+import { FaPeopleArrows } from 'react-icons/fa';
+import { Link } from "react-router-dom";
+import { FaMedapps } from "react-icons/fa";
+import swimgif from './Images/swimgif.gif';
+
 
 const Sidebar = () => {
 
-    return (
-        <div className="Sidebar column left">
-            
-            <a href="/">
-            <button className="btn">
-                Home
-            </button>
-            </a>
+    
+    const linkStyle = {
+        color: 'white',
+        borderRadius: '10px'
+    }
 
-            <br />
-            <a href="/Register">
-            <button className="btn">
-                Register
-            </button>
-            </a>
-            <br />
-            <a href="/ContactUs">
-            <button className="btn">
-                Contact Us
-            </button>
-            </a>
+    return (
+        <div className="Sidebar">
+
+            <div className="side">
+                <Link to='/' className='homebar' style={linkStyle}> 
+                    <FaHome />
+                    Home
+                </Link>
+                <br />
+
+                <Link to="/Register" className='regbar' style={linkStyle}>
+                    <FaCashRegister />
+                    Register
+                </Link>
+                <br />
+
+                <Link to="/ContactUs" className='contactbar' style={linkStyle}>
+                    <FaPeopleArrows />
+                    Contact Us
+                </Link>
+                <br />
+
+                <Link to="AboutUs" className='aboutbar' style={linkStyle}>
+                    <FaMedapps />
+                    About Us
+                </Link>
+                <br />
+
+                <img src= {swimgif} alt='Pic' />
+            </div>
             
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <a href="http://facebook.com"><FaFacebookSquare/>FaceBook</a>
-            <br />
-            <a href="http://twitter.com"><SiTwitter/>Twitter</a>
-            <br />
-            <a href="http://tiktok.com"><SiTiktok/>Tiktok</a>
 
         </div>
     );
