@@ -4,6 +4,9 @@ import Home from './Home';
 import Sidebar from './Sidebar';
 import Register from './Register';
 import ContactUs from './ContactUs';
+import AboutUs from "./AboutUs";
+import Footer from "./Footer";
+
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import ContentDetails from './ContentDetails';
@@ -18,7 +21,7 @@ function App() {
       <Sidebar />
 
       <Switch>
-        <div className="content column right">
+        <div className="content">
 
           <Route exact path="/">
             <Home />
@@ -28,19 +31,26 @@ function App() {
             <Register />
           </Route>
 
-          <Route exact path="/ContactUs">
+          <Route path="/ContactUs">
             <ContactUs />
           </Route>
 
-          <Route exact path="/Content/:id">
+          <Route path="/Content/:id">
             <ContentDetails />
           </Route>
 
+          <Route path="/AboutUs">
+            <AboutUs />
+          </Route>
+          
           {/* <Route path="*">
             <NotFound />
           </Route> */}
+          
         </div>
       </Switch>
+
+      <Footer />
       
       
     </div>
