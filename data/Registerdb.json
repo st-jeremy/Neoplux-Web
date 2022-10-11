@@ -1,0 +1,40 @@
+{
+  "Register": [
+    {
+      "name": "Jeremy",
+      "phone": "08139538188",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "Ololade",
+      "phone": "090000000000",
+      "gender": "Female",
+      "id": 2
+    },
+    {
+      "name": "Ololade",
+      "phone": "090000000000",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "name": "Yola",
+      "phone": "09000000010",
+      "gender": "",
+      "id": 4
+    },
+    {
+      "name": "Supercede",
+      "phone": "09098089098",
+      "gender": "",
+      "id": 5
+    },
+    {
+      "name": "Supercede",
+      "phone": "09098089098",
+      "gender": "",
+      "id": 6
+    }
+  ]
+}

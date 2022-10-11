@@ -1,0 +1,42 @@
+{ 
+    "Content": [
+        {   
+            "title": "Recreation", 
+            "body": [
+                "Swimming is a great recreational activity for people of all ages.",
+                "Recreational swimming can provide you with a low-impact workout and it's a good way to relax and feel good"],
+            "path": "./Images/Rand1.jpeg",
+            "id": 1
+        },
+        
+        {
+            "title": "Competitive", 
+            "body": [
+                "Some people who enjoy swimming want to take it to a competitive level.", 
+                "This can provide the health benefits of a vigorous workout as well as the fun and thrill of competition."
+                ], 
+            "path": "./Images/Rand2.jpeg",
+            "id": 2
+        },
+
+        {
+            "title": "Health Benefits", 
+            "body": [
+                "Swimming is a great workout because you need to move your whole body against the resistance of the water.", 
+                "Swimming is a good all-round activity because it: keeps your heart rate up but takes some of the impact stress off your body, builds endurance, muscle strength and cardiovascular fitness;", 
+                "It also helps you maintain a healthy weight, healthy heart and lungs; tones muscles and builds strength; provides an all-over body workout, as nearly all of your muscles are used during swimming." 
+            ],
+            "path": "./Images/Rand3.jpeg",
+            "id": 3
+        },
+
+        {   "title": "Other benefits of swimming", 
+            "body": [
+                "Being a relaxing and peaceful form of exercise alleviating stress; improving coordination, balance and posture; improving flexibility;",  
+                "It also provides good low-impact therapy for some injuries and conditions; providing a pleasant way to cool down on a hot day; being available in many places: you can swim in swimming pools, beaches, lakes, dams and rivers. Make sure that the environment you choose to swim in is safe."
+            ],
+            "path": "./Images/Rand4.jpeg",
+            "id": 4
+        }
+    ]}
+    
