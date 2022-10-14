@@ -16,11 +16,6 @@
             "title": "Health Benefits", 
             "body": "Swimming is a great workout because you need to move your whole body against the resistance of the water.\n Swimming is a good all-round activity because it: keeps your heart rate up but takes some of the impact stress off your body, builds endurance, muscle strength and cardiovascular fitness; helps you maintain a healthy weight, healthy heart and lungs; tones muscles and builds strength; provides an all-over body workout, as nearly all of your muscles are used during swimming.", 
             "id": 3
-        },
-
-        {   "title": "Other benefits of swimming", 
-            "body": "being a relaxing and peaceful form of exercise alleviating stress; improving coordination, balance and posture; improving flexibility;   providing good low-impact therapy for some injuries and conditions; \n providing a pleasant way to cool down on a hot day; being available in many places: you can swim in swimming pools, beaches, lakes, dams and rivers. Make sure that the environment you choose to swim in is safe.",
-            "id": 4
         }
-
-    ]}
+    ]
+}
