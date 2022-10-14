@@ -35,7 +35,11 @@ const useFetch = (url) => {
                 }
                 
             })
+<<<<<<< HEAD
         }, 6000)
+=======
+        }, 2000)
+>>>>>>> 85e2d53b233e4bc0a804b7bb892c6fe4b926d96c
 
         return () => abortCtrl.abort();
 
