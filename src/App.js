@@ -1,16 +1,15 @@
 import './index.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import Sidebar from './Sidebar';
-import Register from './Register';
-import ContactUs from './ContactUs';
-import AboutUs from "./AboutUs";
-import Footer from "./Footer";
-
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Sidebar from './Components/Sidebar';
+import Register from './Components/Register';
+import ContactUs from './Components/ContactUs';
+import AboutUs from "./Components/AboutUs";
+import Footer from "./Components/Footer";
+import ContentDetails from './Components/ContentDetails';
+// import NotFound from './Components/NotFound.js';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import ContentDetails from './ContentDetails';
-// import NotFound from './NotFound';
 
 function App() {
   return (
