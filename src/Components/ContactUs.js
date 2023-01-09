@@ -1,5 +1,8 @@
 
 const ContactUs = () => {
+    function handleSubmit (){
+        alert('Form submitted successfully.')
+    }
     return ( 
         <div className="ContactUs">
             <div className="col1 column left1">
@@ -7,7 +10,8 @@ const ContactUs = () => {
                 Contact Us 
             </h2>
             <p>Send your inquires here</p>
-            <form>
+
+            <form onSubmit={handleSubmit}>
                 <label>Full Name:</label>
                 <input type="text" name="Fullname" placeholder="First  Last"/>
                 <br />
