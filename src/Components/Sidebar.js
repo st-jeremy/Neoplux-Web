@@ -8,7 +8,6 @@ import swimgif from "../images/swimgif.gif";
 
 const Sidebar = () => {
 
-    
     const linkStyle = {
         color: 'white',
         borderRadius: '10px'

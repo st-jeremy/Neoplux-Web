@@ -4,7 +4,7 @@ const AboutUs = () => {
     return ( 
         <div className="AboutUs">
             <div>
-                <img src={picture} alt="" />
+                <img src={picture} alt="about us" />
                 <h2>CORE VALUES</h2>
                     <ul>
                         Deriving from the same set of values that our clients and coaches are expected to adhere to, we have adopted key corporate values which will define and crystallize its approach and behavior.

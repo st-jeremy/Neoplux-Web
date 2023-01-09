@@ -13,7 +13,6 @@ const Register = () => {
     const handleSubmit = (e)=>{
         e.preventDefault();
         const register ={ name, phone, gender};
-
         setIsLoading(true);
 
         fetch('http://localhost:4000/Register', {

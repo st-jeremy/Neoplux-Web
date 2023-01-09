@@ -1,33 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Dyna+Puff');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  font-size: 100%; 
+  font: inherit; 
+  vertical-align: baseline;
+}
 html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 /* Debugging */
 /* * {
   outline: 1px solid red;
 } */
-
 image {
   max-width: 100%
 }
 
 *{
   box-sizing: border-box;
-  margin: 0;
+  margin: 0%;
+  padding: 0%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: MuseoModerno;
-} 
-
-.Navbar{
-  
+  font-family: IBM Plex Sans;
 }
 
 .Sidebar{
   display: none;
+}
+.Navbar{
+  padding: .4rem;
+  background: linear-gradient(
+    to bottom,
+    rgb(235, 232, 232) 0%,
+    rgb(255, 255, 255) 35%,
+    rgb(233, 233, 242) 60%,
+    rgb(44, 125, 212) 100%
+  );
+}
+
+input, button{
+  border-radius: '30px'
+}
+
+.Nav1{
+  display: flex;
+}
+
+.Navbar img{
+  width: 60px;
+  height: 45px;
+}
+.Nav2{
+  display: flex;
+  flex-direction: column;
+}
+.Nav3{
+  margin-top: .2rem;
+}
+
+.Nav2 input{
+  width: 65%;
 }
 

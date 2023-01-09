@@ -1,5 +1,6 @@
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+
 import "../index.css";
 
 import image1 from "../images/Random9.jpeg";
@@ -19,7 +20,7 @@ const zoomOutProperties = {
   duration: 2000,
   transitionDuration: 1000,
   infinite: true,
-  indicators: false,
+  indicators: true,
   scale: 1.5,
   arrows: true
 };
@@ -39,7 +40,7 @@ const Slideshow = () => {
 
 function Random() {
   return (
-    <div className="App">
+    <div className="Random">
       <Slideshow />
     </div>
   );
