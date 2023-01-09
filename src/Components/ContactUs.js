@@ -12,19 +12,23 @@ const ContactUs = () => {
             <p>Send your inquires here</p>
 
             <form onSubmit={handleSubmit}>
-                <label>Full Name:</label>
-                <input type="text" name="Fullname" placeholder="First  Last"/>
+                <label htmlFor="fullName">Full Name:</label>
+                <input type="text" name="fullName" placeholder="First name &nbsp;  Last name"/>
                 <br />
-                <label>Email Address:</label>
-                <input type="email" name="Email" />
+
+                <label htmlFor="email">Email Address:</label>
+                <input type="email" name="email" />
                 <br />
-                <label htmlFor="">Subject:</label>
-                <input type="text" name="" id="" />
+
+                <label htmlFor="subject">Subject:</label>
+                <input type="text" name="subject" />
                 <br />
-                <label htmlFor="">Message:</label>
+
+                <label htmlFor="message">Message:</label>
                 <br />
-                <textarea name="Message" id="" cols="40" rows="10"></textarea>
+                <textarea name="message" id="" cols="40" rows="10" placeholder="Enter text here..."></textarea>
                 <br />
+
                 <button type="submit">Send Message</button>
             </form>
             </div>
