@@ -6,7 +6,7 @@ import omega from "../images/omegalogo.png";
 import ContentList from './ContentList';
 import Random from './Random';
 import useFetch from './useFetch';
-import './index.css';
+import '../index.css';
 
 const Home = () => {
     const { data: content, isLoading, error } = useFetch('http://localhost:8000/Content');

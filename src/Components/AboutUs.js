@@ -1,8 +1,6 @@
-import picture from "/src/images/swim2.png";
+import picture from "../images/Swim1.jpeg";
 
 const AboutUs = () => {
-
-    
     return ( 
         <div className="AboutUs">
             <div>

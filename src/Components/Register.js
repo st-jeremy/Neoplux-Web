@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import regPic from "./Images/swim2.png"
+import regPic from "../images/Swim6.jpeg";
 
 const Register = () => {
     const [name, setName] = useState('');

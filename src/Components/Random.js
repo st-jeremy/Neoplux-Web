@@ -1,10 +1,10 @@
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import "./index.css";
+import "../index.css";
 
 import image1 from "../images/Random9.jpeg";
 import image2 from "../images/Random10.jpeg";
-import image3 from "../images/Random1.jpeg";
+import image3 from "../images/Random9.jpeg";
 import image4 from "../images/Random11.jpeg";
 import image5 from "../images/Swim1.jpeg";
 import image6 from "../images/Swim2.jpeg";

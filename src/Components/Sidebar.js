@@ -3,7 +3,7 @@ import { FaCashRegister } from 'react-icons/fa';
 import { FaPeopleArrows } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import { FaMedapps } from "react-icons/fa";
-import swimgif from './Images/swimgif.gif';
+import swimgif from "../images/swimgif.gif";
 
 
 const Sidebar = () => {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Logo from '/src/images/logo-removebg.png';
-// import { FcSearch } from "react-icons/fc";
+import Logo from '../images/logo.jpeg';
+import { FcSearch } from "react-icons/fc";
 
 const Navbar = () => {
     const linkStyle = {
@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link to="/ContactUs" style={linkStyle}>Contact Us</Link>
                 <Link to="AboutUs" style={linkStyle}>About Us</Link>
                 <br />
-                <input type="search" name="Search" id="search" placeholder="  Search" />
+                <input type="search" name="Search" id="search" placeholder="  Search" /><FcSearch />
             </div>
             
         </div>
