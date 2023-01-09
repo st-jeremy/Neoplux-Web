@@ -19,7 +19,7 @@ const Footer = () => {
                 <Link to="/AboutUs" style={linkStyle}>About Us</Link>
                 <br />
 
-                Copyright Neoplux Swim Academy 2022
+                Copyright Neoplux Swim Academy {new Date().getFullYear()}
 
             </div>
             <div className="social">

@@ -11,12 +11,14 @@ const ContentDetails = () => {
             {isLoading && <div>Loading...</div>}
             {error && <div> { error } </div>}
             { content && 
-                (<article>
-                    <h3>{ content.title}</h3>
-                    <div>{ content.body }</div>
-                    {/* <img src={content.path} alt="images"/> */}
-                </article>
-            )}
+                (
+                    <article>
+                        <h3>{ content.title}</h3>
+                        <div>{ content.body }</div>
+                        {/* <img src={content.path} alt="images"/> */}
+                    </article>
+                )
+            }
 
         </div>
      );
